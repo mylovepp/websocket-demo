@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "nodemon src/server.io.ts"
+    "start": "nodemon src/new-server.io.ts"
   },
   "keywords": [],
   "author": "",
@@ -35,6 +35,6 @@
     "ignore": [
       "src/**/*.spec.ts"
     ],
-    "exec": "ts-node ./src/server.io.ts"
+    "exec": "ts-node ./src/new-server.io.ts"
   }
 }
